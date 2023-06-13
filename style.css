@@ -221,5 +221,18 @@ body {
    width: 45px;
    height: 45px;
    padding-top: 2px;
+   transition: 0.2s;
+}
+
+#redes .instagram:hover {
+    transform: scale(1.2);
+}
+
+#redes .facebook {
+    transition: 0.2s;
+}
+
+#redes .facebook:hover {
+    transform: scale(1.2);
 }
 
