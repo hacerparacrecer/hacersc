@@ -7,33 +7,40 @@ body {
 }
 
 #nav {
-    display: grid;
-    justify-content: center;
+    display: flex;
     background-color: rgb(87, 87, 255);
     height: 60px;
     align-content: center;
+    justify-content: center;
 }
 
 #nav ul {
-    display: inline;
-    margin-right: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 #nav a {
+    margin: 0 20px;
     font-size: 12px;
     text-decoration: none;
     flex-wrap: wrap;
     display: inline-flex;
     justify-content: center;
     align-content: center;
+
 }
 
 #nav .home {
     cursor: pointer;
+    font-size: 20px;
     margin-right: 20px;
-    background-color: rgb(87,87,87);
-    width: 50px;
-    height: 30px;
+    background-color: rgb(0, 15, 180);
+    width: 40px;
+    height: 40px;
     border-radius: 7px;
     color: aliceblue;
     transition: 0.3s;
@@ -46,10 +53,11 @@ body {
 
 #nav .contacto {
     cursor: pointer;
+    font-size: 20px;
     margin-right: 20px;
-    background-color: rgb(87,87,87);
-    width: 70px;
-    height: 30px;
+    background-color: rgb(0, 15, 180);
+    width: 40px;
+    height: 40px;
     border-radius: 7px;
     list-style-type: none;
     color: aliceblue;
@@ -63,9 +71,10 @@ body {
 
 #nav .ubicacion {
     cursor: pointer;
-    background-color: rgb(87,87,87);
-    width: 120px;
-    height: 30px;
+    font-size: 20px;
+    background-color: rgb(0, 15, 180);
+    width: 40px;
+    height: 40px;
     border-radius: 7px;
     list-style-type: none;
     color: aliceblue;
