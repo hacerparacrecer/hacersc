@@ -98,7 +98,7 @@ body {
 
 #port {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #title {
@@ -257,4 +257,3 @@ body {
     border-radius: 20px;
     border: 2px solid gray;
 }
-
