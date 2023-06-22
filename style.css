@@ -129,6 +129,7 @@ body {
 
 #container1 a {
     display: grid;
+    text-decoration: none;
 }
 
 #container1 h2 {
@@ -162,6 +163,7 @@ body {
 
 #container2 a {
     display: grid;
+    text-decoration: none;
 }
 
 #container2 h2 {
@@ -196,6 +198,7 @@ body {
 
 #container3 a {
     display: grid;
+    text-decoration: none;
 }
 
 #container3 h2 {
