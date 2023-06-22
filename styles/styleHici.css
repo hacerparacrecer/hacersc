@@ -110,7 +110,6 @@ h2 {
     justify-self: center;
     border-radius: 0px 20px 20px 20px;
     text-align: justify;
-    border: 1px solid rgb(185, 185, 185);
 }
 
 .textCont p {
@@ -126,7 +125,6 @@ h2 {
     justify-self: center;
     border-radius: 20px 0px 20px 20px;
     text-align: justify;
-    border: 1px solid rgb(185, 185, 185);
 }
 
 .textCont2 p {
@@ -142,7 +140,6 @@ h2 {
     justify-self: center;
     border-radius: 0px 20px 20px 20px;
     text-align: justify;
-    border: 1px solid rgb(185, 185, 185);
     margin-bottom: 50px;
 }
 
