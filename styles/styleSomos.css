@@ -146,8 +146,8 @@ h2 {
     margin-top: 20px;
     width: 90%;
     display: grid;
-    background-color: rgb(193, 240, 158);
-    border-radius: 0px 20px 20px 20px;
+    background-color: aliceblue;
+    border-radius: 20px 0px 20px 20px;
     justify-self: center;
 }
 
@@ -202,8 +202,8 @@ h2 {
     margin-top: 20px;
     width: 90%;
     display: grid;
-    background-color: rgb(193, 240, 158);
-    border-radius: 0px 20px 20px 20px;
+    background-color: aliceblue;
+    border-radius: 20px 0px 20px 20px;
     justify-self: center;
 }
 

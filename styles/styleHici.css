@@ -120,7 +120,7 @@ h2 {
 
 .textCont2 {
     display: grid;
-    background-color:rgb(230, 230, 230);
+    background-color:aliceblue;
     width: 90%;
     margin-top: 20px;
     justify-self: center;
