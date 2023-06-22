@@ -201,6 +201,7 @@ body {
 #cont a {
     justify-self: center;
     margin-top: 40px;
+    color: rgb(45, 45, 45);
 }
 
 #cont .mapa {
@@ -210,15 +211,6 @@ body {
     height: 350px;
     margin-top: 30px;
     border-radius: 20px;
-}
-
-#contF {
-    display: grid;
-    margin-top: 20px;
-}
-
-#contF iframe {
-    justify-self: center;
 }
 
 #redes {

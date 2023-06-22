@@ -100,6 +100,34 @@ h2 {
     margin-top: 70px;
     font-size: 20px;
     text-align: center;
+    color: rgb(45, 45, 45);
+}
+/* ------------------------------------- */
+.foto {
+    display: grid;
+    justify-content: center;
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(110, 110, 110);
+}
+
+.text {
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    background-color: aliceblue;
+    border-radius: 20px 0px 20px 20px;
+    justify-self: center;
+}
+
+.text p {
+    width: 90%;
+    text-align: justify;
+    justify-self: center;
 }
 /* ------------------------------------- */
 .foto1 {
@@ -240,4 +268,32 @@ h2 {
     text-align: justify;
     justify-self: center;
 }
+/* ------------------------------------- */
+.foto6 {
+    display: grid;
+    justify-content: center;
+}
 
+.foto6 img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(110, 110, 110); 
+}
+
+.text6 {
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    background-color: aliceblue;
+    border-radius: 20px 0px 20px 20px;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+.text6 p {
+    width: 90%;
+    text-align: justify;
+    justify-self: center;
+}
