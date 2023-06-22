@@ -50,7 +50,7 @@ body {
 
 #nav .home:hover {
     transform: scale(1.2);
-    color: rgb(87, 87, 255);
+    color: rgb(74, 74, 74);
 }
 
 #nav .contacto {
@@ -68,7 +68,7 @@ body {
 
 #nav .contacto:hover {
     transform: scale(1.2);
-    color: rgb(87, 87, 255);
+    color: rgb(74, 74, 74);
 }
 
 #nav .ubicacion {
@@ -85,7 +85,7 @@ body {
 
 #nav .ubicacion:hover {
     transform: scale(1.2);
-    color: rgb(87, 87, 255);
+    color: rgb(74, 74, 74);
 }
 
 #nav li:hover {
