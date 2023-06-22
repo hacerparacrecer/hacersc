@@ -1,0 +1,152 @@
+body {
+    display: grid;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../Assets/BG.jpeg);
+    background-size:auto;
+}
+
+#nav {
+    position:fixed;
+    display: flex;
+    width: 100%;
+    background-color: rgb(87, 87, 255);
+    height: 60px;
+    align-content: center;
+    justify-content: center;
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#nav a {
+    margin: 0 20px;
+    font-size: 11px;
+    text-decoration: none;
+    color: aliceblue;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#nav .home {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+    /* background-color: rgb(0, 15, 180); */
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    color: aliceblue;
+    transition: 0.3s;
+} 
+
+#nav .home:hover {
+    transform: scale(1.2);
+    color: rgb(74, 74, 74);
+}
+
+#nav .contacto {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+    /* background-color: rgb(0, 15, 180); */
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    list-style-type: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+#nav .contacto:hover {
+    transform: scale(1.2);
+    color: rgb(74, 74, 74);
+}
+
+#nav .ubicacion {
+    cursor: pointer;
+    font-size: 20px;
+    /* background-color: rgb(0, 15, 180); */
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    list-style-type: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+#nav .ubicacion:hover {
+    transform: scale(1.2);
+    color: rgb(74, 74, 74);
+}
+
+#nav li:hover {
+    color: aqua;
+}
+
+#body {
+    display: grid;
+}
+
+h2 {
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textCont {
+    display: grid;
+    background-color:rgb(193, 240, 158);
+    width: 90%;
+    margin-top: 20px;
+    justify-self: center;
+    border-radius: 0px 20px 20px 20px;
+    text-align: justify;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.textCont p {
+    width: 90%;
+    justify-self: center;
+}
+
+.textCont2 {
+    display: grid;
+    background-color:rgb(230, 230, 230);
+    width: 90%;
+    margin-top: 20px;
+    justify-self: center;
+    border-radius: 20px 0px 20px 20px;
+    text-align: justify;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.textCont2 p {
+    width: 90%;
+    justify-self: center;
+}
+
+.textContF {
+    display: grid;
+    background-color:rgb(193, 240, 158);
+    width: 90%;
+    margin-top: 20px;
+    justify-self: center;
+    border-radius: 0px 20px 20px 20px;
+    text-align: justify;
+    border: 1px solid rgb(185, 185, 185);
+    margin-bottom: 50px;
+}
+
+.textContF p {
+    width: 90%;
+    justify-self: center;
+}
