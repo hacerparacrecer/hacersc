@@ -91,7 +91,7 @@ body {
 #nav li:hover {
     color: aqua;
 }
-
+/* ------------------------------------- */
 #body {
     display: grid;
 }
@@ -101,7 +101,7 @@ h2 {
     font-size: 20px;
     text-align: center;
 }
-
+/* ------------------------------------- */
 .foto1 {
     display: grid;
     justify-content: center;
@@ -128,7 +128,7 @@ h2 {
     text-align: justify;
     justify-self: center;
 }
-
+/* ------------------------------------- */
 .foto2 {
     display: grid;
     justify-content: center;
@@ -156,6 +156,88 @@ h2 {
     text-align: justify;
     justify-self: center;
 }
+/* ------------------------------------- */
+.foto3 {
+    display: grid;
+    justify-content: center;
+}
 
+.foto3 img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(110, 110, 110); 
+}
 
+.text3 {
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    background-color: rgb(193, 240, 158);
+    border-radius: 0px 20px 20px 20px;
+    justify-self: center;
+}
+
+.text3 p {
+    width: 90%;
+    text-align: justify;
+    justify-self: center;
+}
+/* ------------------------------------- */
+.foto4 {
+    display: grid;
+    justify-content: center;
+}
+
+.foto4 img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(110, 110, 110); 
+}
+
+.text4 {
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    background-color: rgb(193, 240, 158);
+    border-radius: 0px 20px 20px 20px;
+    justify-self: center;
+}
+
+.text4 p {
+    width: 90%;
+    text-align: justify;
+    justify-self: center;
+}
+/* ------------------------------------- */
+.foto5 {
+    display: grid;
+    justify-content: center;
+}
+
+.foto5 img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(110, 110, 110); 
+}
+
+.text5 {
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    background-color: rgb(193, 240, 158);
+    border-radius: 0px 20px 20px 20px;
+    justify-self: center;
+}
+
+.text5 p {
+    width: 90%;
+    text-align: justify;
+    justify-self: center;
+}
 
