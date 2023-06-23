@@ -224,7 +224,6 @@ body {
 
 #cont .mapa {
     justify-self: center;
-    border: 5px solid rgb(84, 84, 84);
     width: 350px;
     height: 350px;
     margin-top: 30px;
