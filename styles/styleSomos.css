@@ -71,6 +71,24 @@ body {
     color: rgb(74, 74, 74);
 }
 
+#nav .noticias {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+    /* background-color: rgb(0, 15, 180); */
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    list-style-type: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+#nav .noticias:hover {
+    transform: scale(1.2);
+    color: rgb(74, 74, 74);
+}
+
 #nav .ubicacion {
     cursor: pointer;
     font-size: 20px;
@@ -103,12 +121,40 @@ h2 {
     color: rgb(45, 45, 45);
 }
 /* ------------------------------------- */
+.fotoS {
+    display: grid;
+    justify-content: center;
+}
+
+.fotoS img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(110, 110, 110);
+}
+
+.textS {
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    background-color: rgb(193, 240, 158);
+    border-radius: 0px 20px 20px 20px;
+    justify-self: center;
+}
+
+.textS p {
+    width: 90%;
+    text-align: justify;
+    justify-self: center;   
+}
+/* ------------------------------------- */
 .foto {
     display: grid;
     justify-content: center;
 }
 
 .foto img{
+    margin-top: 20px;
     width: 100px;
     height: 100px;
     border-radius: 50%;

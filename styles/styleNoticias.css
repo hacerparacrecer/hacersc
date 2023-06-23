@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(../Assets/BG.jpeg);
-    background-size:contain;
+    background-size: contain;
 }
 
 #nav {
@@ -32,7 +32,6 @@ body {
     color: aliceblue;
     flex-wrap: wrap;
     display: inline-flex;
-    justify-content: center;
     align-content: center;
 }
 
@@ -114,26 +113,80 @@ body {
     display: grid;
 }
 
-h2 {
+#titulo {
+    display: grid;
+    margin-top: 60px;
     color: rgb(45, 45, 45);
-    margin-top: 70px;
-    font-size: 20px;
+    justify-self: center;
+}
+
+#port {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#weather-info {
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+    display: grid;
+    background-image: url(../Assets/clima.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 110px;
+    justify-self: center;
+    justify-content: left;
+    padding-left: 20px;
+    align-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px blueviolet;
+}
+
+#noticia1 {
+    display: grid;
+    margin-top: 30px;
+    background-image: url(../Assets/noticia1.jpeg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    align-content:end;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+#noticia1 a {
+    text-decoration: none;
+    background-color: rgb(87, 87, 255);
+    border-radius: 0px 0px 20px 20px;
+}
+
+#noticia1 a h4 {
+    color: aliceblue;
     text-align: center;
 }
 
-h3 {
-    text-align: center; 
-    color: rgb(45, 45, 45); 
-}
-
-.foto1 {
+#noticia2 {
     display: grid;
-    justify-content: center;
-}
-
-.foto1 img {
-    margin-top: 80px;
-    width: 300px;
-    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(../Assets/noticia2.jpg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    align-content:end;
+    justify-self: center;
     border-radius: 20px;
 }
+
+#noticia2 a {
+    text-decoration: none;
+    background-color: rgb(87, 87, 255);
+    border-radius: 0px 0px 20px 20px;
+}
+
+#noticia2 a h4 {
+    color: aliceblue;
+    text-align: center;
+}
+
+

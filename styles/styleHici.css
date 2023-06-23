@@ -66,6 +66,24 @@ body {
     transition: 0.3s;
 }
 
+#nav .noticias {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+    /* background-color: rgb(0, 15, 180); */
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    list-style-type: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+#nav .noticias:hover {
+    transform: scale(1.2);
+    color: rgb(74, 74, 74);
+}
+
 #nav .contacto:hover {
     transform: scale(1.2);
     color: rgb(74, 74, 74);
@@ -97,8 +115,8 @@ body {
 }
 
 h2 {
-    margin-top: 70px;
-    font-size: 20px;
+    margin-top: 85px;
+    font-size: 18px;
     text-align: center;
     color: rgb(45, 45, 45);
 }
@@ -107,7 +125,7 @@ h2 {
     display: grid;
     background-color:rgb(193, 240, 158);
     width: 90%;
-    margin-top: 20px;
+    margin-top: 10px;
     justify-self: center;
     border-radius: 0px 20px 20px 20px;
     text-align: justify;
