@@ -264,4 +264,5 @@ body {
     display: grid;
     justify-self: center;
     border-radius: 20px;
+    border: 0;
 }
