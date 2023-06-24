@@ -4,28 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styleNoticias.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styleNoticias.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Hacer para crecer</title>
 </head>
 
 <div id="body">
     <nav id="nav">
         <ul>
-            <!-- <a class="logo">ELIJO, <br> HACER SAN CRISTÓBAL</a> -->
             <a href="index.html" class="home"><i class="fas fa-home"></i></a>
             <a href="Contacto.html" class="contacto"><i class="fas fa-message"></i></a>
             <a href="Noticias.html" class="noticias"><i class="fa-solid fa-newspaper"></i></a>
             <a href="Ubicacion.html" class="ubicacion"><i class="fa-solid fa-location-dot"></i></a>
         </ul>
     </nav>
+    <img id="port" src="./Assets/port.jpeg">
     <div id="titulo">
         <h3>NOTICIAS</h3>
-    </div>
-    <div id="radioPort">
-        <button id="play-button">Reproducir</button>
     </div>
     <div id="weather-info"></div>
     <div id="noticia1">
@@ -46,34 +41,6 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </div>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/script/soundmanager2-jsmin.js"></script>
-
-    <script>
-        soundManager.setup({
-            url: 'https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/swf',
-            onready: function () {
-                var mySound = soundManager.createSound({
-                    id: 'audio',
-                    url: 'http://centova1.veemesoft.com.ar:9494/;',
-                    autoLoad: true,
-                    autoPlay: false
-                });
-
-                // Evento para reproducir o detener el audio al hacer clic en el botón
-                var playButton = document.getElementById('play-button');
-                playButton.addEventListener('click', function () {
-                    if (mySound.playState === 0) {
-                        mySound.play();
-                        playButton.textContent = 'Stop';
-                    } else {
-                        mySound.stop();
-                        playButton.textContent = 'Play';
-                    }
-                });
-            }
-        });
-    </script>
     <script src="script.js"></script>
     </body>
 
