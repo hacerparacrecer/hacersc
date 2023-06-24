@@ -5,52 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styleNoticias.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.13/mediaelementplayer.min.css" />
     <title>Hacer para crecer</title>
-</head> 
+</head>
 
-    < id="body">
-        <nav id="nav">
-            <ul>
-                <!-- <a class="logo">ELIJO, <br> HACER SAN CRISTÓBAL</a> -->
-                <a href="index.html" class="home"><i class="fas fa-home"></i></a>
-                <a href="Contacto.html" class="contacto"><i class="fas fa-message"></i></a>
-                <a href="Noticias.html" class="noticias"><i class="fa-solid fa-newspaper"></i></a>
-                <a href="Ubicacion.html" class="ubicacion"><i class="fa-solid fa-location-dot"></i></a>
-            </ul>
-        </nav>
-        <div id="titulo">
-            <h3>NOTICIAS</h3>
-        
-        </div>
-        
-        <div id="radio">
-            <div id="radioPort">
-            
-            </div>
-            <audio controls>
-                <source src="http://centova1.veemesoft.com.ar:9494/;" type="audio/mpeg">
-                Tu navegador no soporta la reproducción de audio.
-              </audio>
-            </div> 
-        <div id="weather-info"></div>
-        <div id="noticia1">
-            <a href="https://columnasancristobalense.com.ar/2023/06/el-pj-sancristobalense-lanzo-su-campana/" target="_blank">
-                <h4>El PJ sancristobalense lanzó su campaña</h4>
-            </a>
-        </div>
-        <div id="noticia2">
-            <a href="https://eldepartamental.com/contenido/25884/pusieron-en-valor-la-estacion-san-cristobal" target="_blank">
-                <h4>Pusieron en valor la Estación San Cristóbal</h4>
-            </a>
-        </div>
-        <div id="presentacion">
-            <iframe width="220" height="220" src="https://www.youtube.com/embed/aogHyOavkQI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>     
-        
-        <script src="script.js"></script>
+<div id="body">
+    <nav id="nav">
+        <ul>
+            <!-- <a class="logo">ELIJO, <br> HACER SAN CRISTÓBAL</a> -->
+            <a href="index.html" class="home"><i class="fas fa-home"></i></a>
+            <a href="Contacto.html" class="contacto"><i class="fas fa-message"></i></a>
+            <a href="Noticias.html" class="noticias"><i class="fa-solid fa-newspaper"></i></a>
+            <a href="Ubicacion.html" class="ubicacion"><i class="fa-solid fa-location-dot"></i></a>
+        </ul>
+    </nav>
+    <div id="titulo">
+        <h3>NOTICIAS</h3>
+    </div>
+    <audio src="http://centova1.veemesoft.com.ar:9494/;" controls></audio>
+    <div id="weather-info"></div>
+    <div id="noticia1">
+        <a href="https://columnasancristobalense.com.ar/2023/06/el-pj-sancristobalense-lanzo-su-campana/"
+            target="_blank">
+            <h4>El PJ sancristobalense lanzó su campaña</h4>
+        </a>
+    </div>
+    <div id="noticia2">
+        <a href="https://eldepartamental.com/contenido/25884/pusieron-en-valor-la-estacion-san-cristobal"
+            target="_blank">
+            <h4>Pusieron en valor la Estación San Cristóbal</h4>
+        </a>
+    </div>
+    <div id="presentacion">
+        <iframe width="220" height="220" src="https://www.youtube.com/embed/aogHyOavkQI?controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.13/mediaelement-and-player.min.js"></script>
+    <script>
+        // Inicializa los reproductores MediaElement
+        var player = new MediaElementPlayer('audio');
+    </script>
+    <script src="script.js"></script>
     </body>
 
 </html>

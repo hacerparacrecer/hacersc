@@ -221,8 +221,8 @@ body {
     justify-self: center;
 }
 
-#radio audio {
-    margin-top: -40px;
+audio {
+    justify-self: center;
     width: 220px;
 }
 
