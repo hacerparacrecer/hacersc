@@ -215,15 +215,19 @@ body {
     border-radius: 20px;
     width: 220px;
     height: 210px;
+    justify-self: center;
+    display: grid;
 }
 
-#radio {
+#play-button {
     justify-self: center;
-}
-
-audio {
-    justify-self: center;
-    width: 220px;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    color: aliceblue;
+    margin-top: 140px;
 }
 
 

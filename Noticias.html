@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.13/mediaelementplayer.min.css" />
     <title>Hacer para crecer</title>
 </head>
 
@@ -25,7 +24,9 @@
     <div id="titulo">
         <h3>NOTICIAS</h3>
     </div>
-    <audio src="http://centova1.veemesoft.com.ar:9494/;" controls></audio>
+    <div id="radioPort">
+        <button id="play-button">Reproducir</button>
+    </div>
     <div id="weather-info"></div>
     <div id="noticia1">
         <a href="https://columnasancristobalense.com.ar/2023/06/el-pj-sancristobalense-lanzo-su-campana/"
@@ -45,10 +46,33 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.13/mediaelement-and-player.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/script/soundmanager2-jsmin.js"></script>
+
     <script>
-        // Inicializa los reproductores MediaElement
-        var player = new MediaElementPlayer('audio');
+        soundManager.setup({
+            url: 'https://cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97a.20150601/swf',
+            onready: function () {
+                var mySound = soundManager.createSound({
+                    id: 'audio',
+                    url: 'http://centova1.veemesoft.com.ar:9494/;',
+                    autoLoad: true,
+                    autoPlay: false
+                });
+
+                // Evento para reproducir o detener el audio al hacer clic en el botón
+                var playButton = document.getElementById('play-button');
+                playButton.addEventListener('click', function () {
+                    if (mySound.playState === 0) {
+                        mySound.play();
+                        playButton.textContent = 'Stop';
+                    } else {
+                        mySound.stop();
+                        playButton.textContent = 'Play';
+                    }
+                });
+            }
+        });
     </script>
     <script src="script.js"></script>
     </body>
