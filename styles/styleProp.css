@@ -66,11 +66,6 @@ body {
     transition: 0.3s;
 }
 
-#nav .contacto:hover {
-    transform: scale(1.2);
-    color: rgb(74, 74, 74);
-}
-
 #nav .noticias {
     cursor: pointer;
     font-size: 20px;
@@ -85,6 +80,11 @@ body {
 }
 
 #nav .noticias:hover {
+    transform: scale(1.2);
+    color: rgb(74, 74, 74);
+}
+
+#nav .contacto:hover {
     transform: scale(1.2);
     color: rgb(74, 74, 74);
 }
@@ -109,31 +109,102 @@ body {
 #nav li:hover {
     color: aqua;
 }
-
+/* ------------------------------------------------------------------- */
 #body {
     display: grid;
 }
 
 h2 {
-    color: rgb(45, 45, 45);
-    margin-top: 70px;
-    font-size: 20px;
+    margin-top: 85px;
+    font-size: 18px;
     text-align: center;
+    color: rgb(45, 45, 45);
 }
-
-h3 {
-    text-align: center; 
-    color: rgb(45, 45, 45); 
-}
-
-.foto1 {
+/* ------------------------------------------------------------------- */
+.textCont {
     display: grid;
-    justify-content: center;
+    background-color:rgb(193, 240, 158);
+    width: 90%;
+    margin-top: 10px;
+    justify-self: center;
+    border-radius: 0px 20px 20px 20px;
+    text-align: justify;
 }
 
-.foto1 img {
-    margin-top: 80px;
+.textCont p {
+    width: 90%;
+    justify-self: center;
+}
+
+.img1 {
+    display: grid;
     width: 300px;
-    height: 300px;
+    height: 200px;
+    justify-self: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(193, 240, 158);
+    width: 90%;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.img1 img{
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+}
+/* ------------------------------------------------------------------- */
+.textCont2 {
+    display: grid;
+    background-color:aliceblue;
+    width: 90%;
+    margin-top: 20px;
+    justify-self: center;
+    border-radius: 20px 0px 20px 20px;
+    text-align: justify;
+}
+
+.textCont2 p {
+    width: 90%;
+    justify-self: center;
+}
+
+.img2 {
+    display: grid;
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 20px 0px 20px 20px;
+}
+
+.img2 img{
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+}
+/* ------------------------------------------------------------------- */
+.img1F {
+    display: grid;
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(193, 240, 158);
+    width: 90%;
+    border-radius: 0px 20px 20px 20px; 
+    margin-bottom: 50px;
+}
+
+.img1F img{
+    width: 300px;
+    height: 180px;
     border-radius: 20px;
 }
