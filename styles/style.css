@@ -290,3 +290,22 @@ body {
     border: 2px solid gray;
 }
 
+@media only screen and (max-width: 768px) {
+    body h5 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #body {
+        display: none;
+    }
+    
+    body h5 {
+        display: grid;
+        color: black;
+        font-size: 50px;
+        justify-content: center;
+        align-content: center;
+    }
+}
