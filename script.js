@@ -12,7 +12,7 @@ function getWeather() {
 function success(position) {
   var latitude = position.coords.latitude;
   var longitude = position.coords.longitude;
-  var apiKey = "274345cccdcb1a7bddbf61a51ab7551f"; // Reemplaza "tu_api_key" con tu clave de API real
+  var apiKey = "274345cccdcb1a7bddbf61a51ab7551f"; 
 
   var url =
     "https://api.openweathermap.org/data/2.5/weather?lat=" +
